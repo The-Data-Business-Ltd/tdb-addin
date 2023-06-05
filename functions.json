@@ -1,0 +1,264 @@
+{
+    "functions": [
+        {
+            "id": "GET_API_KEY",
+            "name": "GET_API_KEY",
+            "parameters": [],
+            "result": {}
+        },
+        {
+            "id": "SET",
+            "name": "api",
+            "parameters": [
+                {
+                    "name": "api_key",
+                    "type": "any"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Writes a message to console.log().",
+            "id": "LOG",
+            "name": "LOG",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Gets the star count for a given Github repository.",
+            "id": "TEST",
+            "name": "TEST",
+            "parameters": [],
+            "result": {}
+        },
+        {
+            "description": "Return the address of the cell that invoked the custom function.",
+            "id": "GETADDRESS",
+            "name": "GETADDRESS",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": "First parameter.",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second parameter.",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Seniority Classification.",
+            "id": "SENIORITY",
+            "name": "SENIORITY",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "job_title_",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Job Function Classification.",
+            "id": "JOB_FUNCTION",
+            "name": "JOB_FUNCTION",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "job_title_",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Job Function Classification.",
+            "id": "EMAIL_VALIDATION",
+            "name": "EMAIL_VALIDATION",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "email",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Email Classification.",
+            "id": "EMAIL_CLASSIFICATION",
+            "name": "EMAIL_CLASSIFICATION",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "name": "last_name",
+                    "type": "string"
+                },
+                {
+                    "description": ".",
+                    "name": "email",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Website Confirmation.",
+            "id": "CONFIRM_WEBSITE",
+            "name": "CONFIRM_WEBSITE",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "website",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data linkedin by name.",
+            "id": "ORGANISATION_DATA_GOOGLE_BY_NAME",
+            "name": "ORGANISATION_DATA_GOOGLE_BY_NAME",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data linkedin by name.",
+            "id": "ORGANISATION_DATA_LINKEDIN_BY_NAME",
+            "name": "ORGANISATION_DATA_LINKEDIN_BY_NAME",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data linkedin by website.",
+            "id": "ORGANISATION_DATA_LINKEDIN_BY_WEBSITE",
+            "name": "ORGANISATION_DATA_LINKEDIN_BY_WEBSITE",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "website",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data linkedin by linkedin.",
+            "id": "ORGANISATION_DATA_LINKEDIN_BY_LINKEDIN",
+            "name": "ORGANISATION_DATA_LINKEDIN_BY_LINKEDIN",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "linkedin",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data organisation_data_companies_house_by_number.",
+            "id": "ORGANISATION_DATA_COMPANIES_HOUSE_BY_NUMBER",
+            "name": "ORGANISATION_DATA_COMPANIES_HOUSE_BY_NUMBER",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "companies_house_number",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data organisation_data_companies_house_by_name.",
+            "id": "ORGANISATION_DATA_COMPANIES_HOUSE_BY_NAME",
+            "name": "ORGANISATION_DATA_COMPANIES_HOUSE_BY_NAME",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data organisation_data_db_by_name.",
+            "id": "ORGANISATION_DATA_DB_BY_NAME",
+            "name": "ORGANISATION_DATA_DB_BY_NAME",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        }
+    ]
+}
