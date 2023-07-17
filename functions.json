@@ -77,6 +77,24 @@
             "result": {}
         },
         {
+            "description": ".",
+            "id": "GET_SIMILARITY",
+            "name": "GET_SIMILARITY",
+            "parameters": [
+                {
+                    "description": "string1",
+                    "name": "string1",
+                    "type": "string"
+                },
+                {
+                    "description": "string2",
+                    "name": "string2",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
             "description": "Job Function Classification.",
             "id": "JOB_FUNCTION",
             "name": "JOB_FUNCTION",
@@ -127,6 +145,31 @@
                 {
                     "description": ".",
                     "name": "email",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Email Finder.",
+            "id": "EMAIL_FINDER",
+            "name": "EMAIL_FINDER",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "description": ".",
+                    "name": "last_name",
+                    "type": "string"
+                },
+                {
+                    "description": ".",
+                    "name": "domain",
                     "type": "string"
                 }
             ],
@@ -258,6 +301,36 @@
                     "type": "string"
                 }
             ],
+            "result": {}
+        },
+        {
+            "description": "Organisation data organisation_data_db_by_name.",
+            "id": "ORGANISATION_CLASSIFICATION_DATA_SECTORS",
+            "name": "ORGANISATION_CLASSIFICATION_DATA_SECTORS",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [],
+            "result": {}
+        },
+        {
+            "description": "Organisation data .",
+            "id": "ORGANISATION_CLASSIFICATION_DATA_TYPES",
+            "name": "ORGANISATION_CLASSIFICATION_DATA_TYPES",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [],
+            "result": {}
+        },
+        {
+            "description": "Organisation data .",
+            "id": "ORGANISATION_CLASSIFICATION_DATA_SUBTYPES",
+            "name": "ORGANISATION_CLASSIFICATION_DATA_SUBTYPES",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [],
             "result": {}
         }
     ]
