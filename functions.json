@@ -332,6 +332,85 @@
             },
             "parameters": [],
             "result": {}
+        },
+        {
+            "description": "Organisation data .",
+            "id": "ORGANISATION_GET_ABOUT_DESCRIPTION",
+            "name": "ORGANISATION_GET_ABOUT_DESCRIPTION",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "name",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Post Code Lookup .",
+            "id": "POST_CODE_LOOKUP",
+            "name": "POST_CODE_LOOKUP",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "post_code",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Post Code extraction .",
+            "id": "POST_CODE_EXTRACTION",
+            "name": "POST_CODE_EXTRACTION",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "text",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Generic email and contact finder from website .",
+            "id": "GENERIC_EMAIL_AND_CONTACT_FINDER",
+            "name": "GENERIC_EMAIL_AND_CONTACT_FINDER",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "domain",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Organisation Type Classification .",
+            "id": "ORGANISTAION_TYPE_CLASSIFICATION",
+            "name": "ORGANISTAION_TYPE_CLASSIFICATION",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "name": "about_description_",
+                    "type": "string"
+                }
+            ],
+            "result": {}
         }
     ]
 }
