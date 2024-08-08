@@ -411,6 +411,22 @@
                 }
             ],
             "result": {}
+        },
+        {
+            "description": "Organisation Type Classification .",
+            "id": "PHONE_FROM_EMAIL",
+            "name": "PHONE_FROM_EMAIL",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "email_",
+                    "type": "string"
+                }
+            ],
+            "result": {}
         }
     ]
 }
