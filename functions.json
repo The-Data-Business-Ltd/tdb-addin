@@ -427,6 +427,90 @@
                 }
             ],
             "result": {}
+        },
+        {
+            "description": "revenue from google .",
+            "id": "ORGANISATION_REVENUE",
+            "name": "ORGANISATION_REVENUE",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "organisation_name",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "get_contact_data_linkedin .",
+            "id": "GET_CONTACT_DATA_LINKEDIN",
+            "name": "GET_CONTACT_DATA_LINKEDIN",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "linkedin_link",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "revenue from find_contact_linkedin_link .",
+            "id": "FIND_CONTACT_LINKEDIN_LINK",
+            "name": "FIND_CONTACT_LINKEDIN_LINK",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "description": ".",
+                    "name": "last_name",
+                    "type": "string"
+                },
+                {
+                    "description": ".",
+                    "name": "organisation_name",
+                    "type": "string"
+                },
+                {
+                    "description": ".",
+                    "name": "job_title",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "revenue from search_contact_in_organisation .",
+            "id": "SEARCH_CONTACT_IN_ORGANISATION",
+            "name": "SEARCH_CONTACT_IN_ORGANISATION",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": ".",
+                    "name": "organisation_name",
+                    "type": "string"
+                },
+                {
+                    "description": ".",
+                    "name": "job_title",
+                    "type": "string"
+                }
+            ],
+            "result": {}
         }
     ]
 }
