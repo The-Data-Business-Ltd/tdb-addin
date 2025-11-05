@@ -511,6 +511,25 @@
                 }
             ],
             "result": {}
+        },
+        {
+            "description": "llm find  .",
+            "id": "FIND_INFORMATION_LLM",
+            "name": "FIND_INFORMATION_LLM",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "name": "query",
+                    "type": "string"
+                },
+                {
+                    "name": "organisation",
+                    "type": "string"
+                }
+            ],
+            "result": {}
         }
     ]
 }
